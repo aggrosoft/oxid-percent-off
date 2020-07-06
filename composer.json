@@ -1,0 +1,24 @@
+{
+  "name": "aggrosoft/oxid-percent-off",
+  "description": "Display percent off when UVP is set.",
+  "type": "oxideshop-module",
+  "keywords": ["oxid", "modules", "eShop"],
+  "homepage": "https://github.com/aggrosoft/oxid-percent-off",
+  "license": "MIT",
+  "extra": {
+    "oxideshop": {
+      "blacklist-filter": [
+        "documentation/**/*.*"
+      ],
+      "target-directory": "agpercentoff"
+    }
+  },
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aggrosoft\\PercentOff\\": "../../../source/modules/agpercentoff"
+    }
+  }
+}
