@@ -29,7 +29,7 @@ or css file.
     pointer-events: none;
 }
 .percent-off-box .ribbon span {
-  font-size: 12px;
+  font-size: 18px;
   font-weight: bold;
   color: #FFF;
   text-transform: uppercase;

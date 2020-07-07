@@ -28,6 +28,11 @@ $aModule = array(
             'block' => 'widget_product_listitem_line_picturebox',
             'file' => '/views/blocks/widget_product_listitem_picture.tpl',
         ],
+        [
+            'template' => 'page/details/inc/productmain.tpl',
+            'block' => 'details_productmain_zoom',
+            'file' => '/views/blocks/details_productmain_zoom.tpl',
+        ],
 
     )
 );
